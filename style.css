@@ -1,0 +1,86 @@
+/* CSS formázás */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+#button-bar {
+    margin-bottom: 20px;
+}
+
+.input-row {
+    margin: 10px;
+}
+
+.input-data {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.input-data:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.remove-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #ff4646;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Kiemelés és zoom a kiválasztott input mezőhöz */
+.highlighted {
+    background-color: #f8f8f8;
+    transition: background-color 1s ease-in-out;
+}
+
+.zoom {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
